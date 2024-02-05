@@ -70,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const CustomTextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
+                focusColor: Colors.transparent,
                 hintText: '¿Como te llamas?',
                 contentPadding: EdgeInsets.only(left: 25, right: 25),
                 hoverColor: Colors.transparent,
@@ -86,11 +87,15 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 30,
             ),
             Container(
-              color: Colors.grey,
-              padding: const EdgeInsets.all(5),
+              padding: EdgeInsets.symmetric(
+                  horizontal: MediaQuery.of(context).size.width * 0.1),
+              color: Colors.transparent,
               child: Text(
-                '$_counter',
-                style: Theme.of(context).textTheme.headlineMedium,
+                'Record: $_counter',
+                style: const TextStyle(
+                  fontSize: 50,
+                  fontFamily: AutofillHints.familyName,
+                ),
               ),
             ),
           ],
