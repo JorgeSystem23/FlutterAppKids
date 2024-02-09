@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_kids/main/home_page.dart';
+import 'package:flutter_kids/main/pages/home_page.dart';
 import 'package:flutter_kids/routes/routes.dart';
 
 class MyApp extends StatelessWidget {

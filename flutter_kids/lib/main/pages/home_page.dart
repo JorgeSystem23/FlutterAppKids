@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_kids/game/basics_operations/pages/basics_operations.page.dart';
 import 'package:flutter_kids/widgets_custom/custom_button.dart';
 import 'package:flutter_kids/widgets_custom/custom_text_field.dart';
 
@@ -58,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 20,
             ),
             CustomButton(
-              onTap: () => Navigator.push(context, BasicOperationsPage(title: widget.title,) as Route<Object?>),
+              onTap: () => Navigator.pushNamed(context, '/basicOperations'),
               title: 'JUGAR',
             ),
             const SizedBox(
