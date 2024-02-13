@@ -26,6 +26,7 @@ class CustomButton extends StatelessWidget {
             width,
             50,
           ),
+          backgroundColor: Colors.transparent,
         ),
         child: Text(
           title,

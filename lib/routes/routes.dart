@@ -13,7 +13,7 @@ class Routes {
 
     switch (settings.name) {
       case '/':
-        page = const MyHomePage(title: 'FrutiApp');
+        page = const HomePage();
         break;
       case '/basicOperations':
         page = const BasicOperationsPage();

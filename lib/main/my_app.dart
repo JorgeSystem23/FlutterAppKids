@@ -17,9 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       onGenerateRoute: Routes.onGenerateRoute,
       routes: const {},
-      home: const MyHomePage(
-        title: 'FrutiApp',
-      ),
+      home: const HomePage(),
     );
   }
 }

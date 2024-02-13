@@ -2,43 +2,26 @@ import 'package:flutter/material.dart';
 import 'package:flutter_kids/widgets_custom/custom_button.dart';
 import 'package:flutter_kids/widgets_custom/custom_text_field.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-  final String image = 'assets/fresa.png';
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+class HomePage extends StatelessWidget {
+  const HomePage({
+    super.key,
+    this.bestPoint,
+  });
+  final String? bestPoint;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amberAccent,
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.blueAccent,
         toolbarHeight: 50,
-        title: Row(
+        title: const Row(
           children: [
-            // Image.asset(
-            //   widget.image,
-            //   height: 20,
-            //   width: 15,
-            // ),
-            Text(widget.title),
+            Text('Juega Aprendiendo'),
           ],
         ),
       ),
-      backgroundColor: Colors.amberAccent,
       body: Container(
         padding: const EdgeInsets.only(left: 25, right: 25),
         child: Column(
@@ -68,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   horizontal: MediaQuery.of(context).size.width * 0.1),
               color: Colors.transparent,
               child: Text(
-                'Record: $_counter',
+                'Record: $bestPoint',
                 style: const TextStyle(
                   fontSize: 50,
                   fontFamily: AutofillHints.familyName,
