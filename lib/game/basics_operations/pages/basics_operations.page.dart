@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_kids/game/basics_operations/pages/basic_operations.layout.dart';
 
 class BasicOperationsPage extends StatelessWidget {
   const BasicOperationsPage({super.key});
@@ -9,41 +10,18 @@ class BasicOperationsPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         toolbarHeight: 50,
-        title: const Row(
+        title: Row(
           children: [
-            // Image.asset(
-            //   widget.image,
-            //   height: 20,
-            //   width: 15,
-            // ),
-            Text('Operaciones Basicas'),
+            IconButton(
+              onPressed: () => Navigator.pop(context),
+              icon: const Icon(Icons.arrow_back_ios),
+            ),
+            const Text('Operaciones Basicas'),
           ],
         ),
       ),
       backgroundColor: Colors.amberAccent,
-      body: const Padding(
-        padding: EdgeInsets.all(8.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Jugador: ',
-              style: TextStyle(fontSize: 24),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'Puntaje: ',
-              style: TextStyle(fontSize: 24),
-            ),
-            SizedBox(height: 10),
-            Text(
-              'Vidas: ',
-              style: TextStyle(fontSize: 24),
-            ),
-            SizedBox(height: 10),
-          ],
-        ),
-      ),
+      body: const BasicOperationsLayout(),
     );
   }
 }
