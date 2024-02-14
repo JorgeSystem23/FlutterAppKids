@@ -17,7 +17,7 @@ class Routes {
         page = const HomePage();
         break;
       case '/menu':
-        page = const MenuLayout(player: '',);
+        page = const MenuLayout();
         break;
       case '/basicOperations':
         page = const BasicOperationsPage();

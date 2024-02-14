@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_kids/main/bloc/home.bloc.dart';
 import 'package:flutter_kids/widgets_custom/custom_button.dart';
+import 'package:provider/provider.dart';
 
 class MenuLayout extends StatelessWidget {
-  const MenuLayout({super.key, required this.player});
-
-  final String player;
+  const MenuLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final player = context.read<HomeBloc>().nameCtr;
     return Scaffold(
       backgroundColor: Colors.blueAccent,
       appBar: AppBar(
@@ -28,7 +29,10 @@ class MenuLayout extends StatelessWidget {
             const SizedBox(
               height: 15,
             ),
-            Text(player),
+            Text(
+              player.text,
+              style: const TextStyle(fontSize: 45),
+            ),
             const SizedBox(
               height: 25,
             ),
