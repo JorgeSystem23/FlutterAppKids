@@ -46,24 +46,24 @@ class MenuLayout extends StatelessWidget {
             ),
             CustomButton(
               onTap: () =>
-                  Navigator.pushReplacementNamed(context, '/basicOperations'),
-              title: 'Prueba 2',
+                  Navigator.pushReplacementNamed(context, '/'),
+              title: 'Alfabetización',
             ),
             const SizedBox(
               height: 25,
             ),
             CustomButton(
               onTap: () =>
-                  Navigator.pushReplacementNamed(context, '/basicOperations'),
-              title: 'Prueba 3',
+                  Navigator.pushReplacementNamed(context, '/textToSpeech'),
+              title: 'Prueba de Librerias',
             ),
             const SizedBox(
               height: 25,
             ),
             CustomButton(
               onTap: () =>
-                  Navigator.pushReplacementNamed(context, '/basicOperations'),
-              title: 'Prueba 4',
+                  Navigator.pushReplacementNamed(context, '/'),
+              title: 'Cambiar pantalla',
             ),
           ],
         ),

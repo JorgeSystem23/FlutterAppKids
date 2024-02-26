@@ -1,4 +1,16 @@
-#Tue Feb 13 10:29:32 CST 2024
-base.0=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Mon Feb 19 10:39:11 CST 2024
+base.0=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/Grullon/project/FlutterAppKids/build/app/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=13/classes.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex

@@ -38,6 +38,10 @@ flutter_lints
 2.19
 file:///Users/Grullon/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/
 file:///Users/Grullon/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/lib/
+flutter_tts
+2.12
+file:///Users/Grullon/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/
+file:///Users/Grullon/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/lib/
 google_fonts
 2.14
 file:///Users/Grullon/.pub-cache/hosted/pub.dev/google_fonts-6.1.0/
@@ -166,6 +170,10 @@ flutter_test
 3.2
 file:///Users/Grullon/fvm/versions/3.16.5/packages/flutter_test/
 file:///Users/Grullon/fvm/versions/3.16.5/packages/flutter_test/lib/
+flutter_web_plugins
+3.2
+file:///Users/Grullon/fvm/versions/3.16.5/packages/flutter_web_plugins/
+file:///Users/Grullon/fvm/versions/3.16.5/packages/flutter_web_plugins/lib/
 flutter_kids
 3.2
 file:///Users/Grullon/project/FlutterAppKids/

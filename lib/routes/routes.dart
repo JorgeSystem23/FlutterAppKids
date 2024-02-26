@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_kids/game/basics_operations/pages/basics_operations.page.dart';
+import 'package:flutter_kids/game/text_speech/text_speech.dart';
 import 'package:flutter_kids/main/pages/home_page.dart';
 import 'package:flutter_kids/menu/menu.dart';
 
@@ -21,6 +22,9 @@ class Routes {
         break;
       case '/basicOperations':
         page = const BasicOperationsPage();
+        break;
+      case '/textToSpeech':
+        page = AppTextSpeech();
         break;
       default:
         page = const Scaffold(

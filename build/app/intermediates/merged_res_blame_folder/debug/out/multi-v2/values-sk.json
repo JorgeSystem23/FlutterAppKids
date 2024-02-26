@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.flutter_kids.app-mergeDebugResources-9:/values-sk/values-sk.xml",
+            "outputFile": "com.example.flutter_kids.app-mergeDebugResources-11:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "/Users/Grullon/.gradle/caches/transforms-3/d08c73bfb05384f2e52578171dbd141e/transformed/core-1.6.0/res/values-sk/values-sk.xml",
+                    "source": "/Users/Grullon/.gradle/caches/transforms-3/181f66008f2fbaa828ce0db2fa6ce196/transformed/core-1.8.0/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
